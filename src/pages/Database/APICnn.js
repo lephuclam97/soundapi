@@ -42,7 +42,7 @@ class API {
       data: data
     })
     .then(response =>{
-      resolve(response.data.data)
+     // resolve(response.data.data)
     },response =>  {this.handleEditError(response)})
     .catch(function(error) {
       console.log(error)
