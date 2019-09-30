@@ -66,7 +66,7 @@ class Menu extends Component{
         }
 
         return(
-
+                
                 <div id="padding-sticky" className="header">
                     <div id="sticky-header" >
                         <Link to = "/">
@@ -87,7 +87,6 @@ class Menu extends Component{
                             <li className="hov alway"><Link to = "/profile">Customers</Link></li>
                             <li className="hov alway"><Link to = "/products">Resources</Link></li>
                             <li className="alway"><Link to = "/contacts">Contact</Link></li>
-                            <li className="alway"><Link to = "/products">Blog</Link></li>
                             <li className="alway"><Link to = "/about">About Us</Link> </li>
                         </ul>
                         </nav>
@@ -119,7 +118,6 @@ class Menu extends Component{
                             <li ><Link to = "/profile">Customers</Link></li>
                             <li ><Link to = "/products">Resources</Link></li>
                             <li ><Link to = "/contacts">Contact</Link></li>
-                            <li ><Link to = "/products">Blog</Link></li>
                             <li ><Link to = "/about">About Us</Link> </li>
                         </ul>
                         </nav>

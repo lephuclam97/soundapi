@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 
 
-import MenuPage from "./../../components/Menu/Menu"
 import Footer from "./../../components/Footer/Footer"
 
+import MenuPage from './../../components/Menu/Menu'
 
+import TopHeader from './../../components/TopHeader/TopHeader'
 class Contacts extends Component {
     render() {
 
         return (
             <div>
+                  <TopHeader/>
+              <MenuPage/>
             <div className="site-wrap">
               
            
